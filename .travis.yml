@@ -1,5 +1,5 @@
 language: elixir
 elixir: '1.9.4'
 install:
-  mix do local.hex --force, compile
+  mix do deps.get local.hex --force, compile
 script: mix test
