@@ -1,4 +1,4 @@
 language: elixir
 install:
-  mix deps.get
+  mix do deps.get
 script: mix test
