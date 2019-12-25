@@ -1,5 +1,5 @@
 language: elixir
 elixir: '1.9.4'
 install:
-  mix do deps.get, compile
+  mix do deps.get --force, compile
 script: mix test
