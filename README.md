@@ -1,6 +1,8 @@
-# Cards
 
-**TODO: Add description**
+# Cards
+[![Build Status](https://travis-ci.org/solar05/elixir-hello.svg?branch=master)](https://travis-ci.org/solar05/elixir-hello)
+
+**Simple module to create deck of cards and deal with them.**
 
 ## Installation
 
