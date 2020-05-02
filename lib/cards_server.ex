@@ -14,7 +14,6 @@ defmodule CardsServer do
 
   def init(state), do: {:ok, state}
 
-
   def handle_call({:create_deck, hand_size}, _from, state) do
     hand = Cards.create_hand(hand_size)
     {:reply, hand, state}
