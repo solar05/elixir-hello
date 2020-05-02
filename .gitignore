@@ -24,3 +24,5 @@ cards-*.tar
 
 .idea
 
+.DS_Store
+
